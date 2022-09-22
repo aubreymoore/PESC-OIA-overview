@@ -1,0 +1,139 @@
+%\documentclass[show notes]{beamer}
+%\documentclass[handout]{beamer}
+\documentclass[]{beamer}
+
+\usepackage{pgfpages}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{mathabx}
+%\usepackage{mathpazo}
+%\usepackage{eulervm}
+%\usepackage{natbib}
+\usepackage{adjustbox}
+\usepackage{booktabs}
+%\usepackage{svg}
+\usepackage{colortbl}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=uog, linkcolor=uog, citecolor=uog}
+
+\usepackage[backend=biber, style=authoryear, maxbibnames=99, dashed=false]{biblatex}
+\addbibresource{tagged-SWCD2021.bib}
+
+
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}% redefines the caption setup of the figures environment in the beamer class.
+
+
+\usetheme{Madrid}
+\definecolor{uog}{rgb}{0,.5,0}
+\usecolortheme[named=uog]{structure}
+
+\mode<handout>{
+	\pgfpagesuselayout{4 on 1}[letterpaper] 
+	\setbeameroption{show notes}
+}
+
+
+% The following code uses \AtBeginSection to place a frame with the section title (\insertsectionhead) inside a beamercolorbox.
+% From https://tex.stackexchange.com/questions/178800/creating-sections-each-with-title-pages-in-beamers-slides
+\AtBeginSection[]{
+	\begin{frame}
+		\vfill
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+			\usebeamerfont{title}\insertsectionhead\par%
+		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
+
+\title[Invasive Species Issues on Guam]{Overview of Invasive Species Issues on Guam}
+
+\author[]{
+	Glenn Dulla\textsuperscript{1}, Roland Quitugua\textsuperscript{2} and Aubrey Moore\textsuperscript{2}\\
+	\bigskip 
+	\textsuperscript{1}Guam Department of Agriculture,
+    \textsuperscript{2}University of Guam
+}
+
+%\institute[]{College of Natural and Applied Sciences\\University of Guam}
+
+%\titlegraphic{\includegraphics[width=2cm]{big_g2.pdf}}
+
+\date[]{Pacific Ecological Security Conference\\Palau, October 6, 2022\\ \tiny\url{https://github.com/aubreymoore/SWDC-2021-07-30/raw/main/SWCD-2021-07-30.pdf}}
+
+
+
+
+
+
+
+
+
+
+%\documentclass{beamer}
+%\usetheme{Madrid}
+%
+%\title{Overview of Invasive Species Issues on Guam}
+%\author{Glenn Dulla, Roland Quitugua, Aubrey Moore}
+%\date{Prepared for the ...}
+\begin{document}
+	
+%\begin{frame}
+    \maketitle
+%\end{frame}
+
+\begin{frame}{Hafa Adai}
+	\adjincludegraphics[height=1.05\textheight,center]{graphics/Guam.jpg}
+\end{frame}
+
+\begin{frame}{Priority Issues}
+	Guam's natural ecosystems, especially Guam's forests, are rapidly being destroyed by invasive species.
+	
+	
+\end{frame}
+
+%\subsection{Priority Issue 1: Brown treesnake}
+
+\begin{frame}{Priority Issue 1: Brown treesnake}
+\end{frame}
+
+%\subsection{Cycad aulacaspis scale CAS}
+
+\begin{frame}{Priority Issue 2: Cycad scale insect (CAS)}
+\end{frame}
+
+
+\begin{frame}{Priority Issue 3: Coconut rhinoceros beetle (CRB)}
+\end{frame}
+
+\begin{frame}{Priority Issue 4: Little fire ant (LFA)}
+\end{frame}
+
+\begin{frame}{Challenges}
+	\begin{itemize}
+		\item Professional capacity is low.
+		\item Guam suffers from the \textit{taxonomic impediment}
+		\item Guam does not have a terrestrial biodiversity inventory
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Funding sources}
+	\begin{itemize}
+	   \item Department of Interior - Office of Insular Affairs
+	   \item USDA - Forest Service
+	   \item USDA - APHIS
+	   \item DOD
+	   \item Government of Guam - Invasive Species Tarrif
+	\end{itemize}		
+\end{frame}
+
+\begin{frame}{National/Territorial Invasive Species Plans}
+	Regional Biosecurity Plan for Micronesia and Hawaii
+   \url{https://pacific.navfac.navy.mil/About-Us/Regional-Biosecurity-Plan-for-Micronesia-and-Hawaii/}
+\end{frame}
+\begin{frame}{Next steps}
+	Coming soon.
+\end{frame}
+
+\end{document}
